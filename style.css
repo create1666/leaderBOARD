@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;1,600&display=swap');
+*{
+list-style: none;
+font-family: 'Montserrat', sans-serif;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+    background: floralwhite;
+}
+.wrapper{
+  width: 100%;
+  height: 100%;
+}
+
+.tabs_section{
+    max-width: auto;
+    height: 80px;
+    background: dodgerblue;
+    border-radius: 5px;
+    padding: 25px 40px;
+    position: relative;
+
+}
+
+
+
+.tabs ul{
+    display: flex;
+    overflow: hidden;
+}
+
+.tabs ul li {
+    margin-right: 50px;
+    font-size: 20px;
+    font-weight: 600;
+    color: whitesmoke;
+    cursor: pointer;
+}
+a{
+    color: whitesmoke;
+}
+input[type=text] {
+    width: 250px;
+    height: 9px;
+    box-sizing: border-box;
+    border: 2px solid rgb(250, 247, 247);
+    border-radius: 8px;
+    background-color: transparent;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px;
+    position: relative;
+  }
+  input[type=button]{
+   position: absolute;
+   background-color: rgb(240, 101, 47);
+   border-radius: 5px;
+   border: none;
+   color: white;
+   padding: 5.5px 40px;
+   text-decoration: none;
+   margin: 4px 2px;
+   cursor: pointer;
+  }
+  .ex a {
+     position: absolute;
+     padding: 5px 50px 50px 100px;
+     border-radius: 200px;
+  }
+  .ext a{
+     position: absolute;
+     padding: 5px 50px 50px 200px;
+    
+  }
+ 
